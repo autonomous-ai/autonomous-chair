@@ -1,5 +1,9 @@
 # Autonomous ErgoChair Ultra 2
 
+<p align="center">
+  <img src="chair_banner.png" alt="Autonomous ErgoChair Ultra 2">
+</p>
+
 Open-hardware design files for the ErgoChair Ultra 2 — a fully mechanical
 ergonomic chair. CAD, drawings, BOM, and assembly guide. No paywall.
 
@@ -20,26 +24,19 @@ No sensors, no MCU, no firmware — this is a passive mechanical chair.
 
 ```
 cad/            3D design files
-  concept/      Sketches, ideas, references               [to be updated]
-  source/       Editable CAD (SolidWorks, Fusion, ...)    [to be updated]
   step/         STEP files (any CAD tool)                 — 36 parts
   stl/          STL files for 3D printing                 — 36 parts
   thumbnails/   Isometric PNG previews                    — 36 images
-  drawings/     2D drawings with dimensions (PDF)         [to be updated]
 
 assembly/       How to put the chair together
-  README.md     Step-by-step build notes                  — present
-  photos/       Step-by-step photos                       [to be updated]
-  videos/       Build videos                              [to be updated]
+  README.md     Step-by-step build notes
 
 docs/           Extra docs and references
-  assembly-guide.pdf   Original product assembly guide   — present
-  git-lfs.md           How to use Git LFS                 — present
+  assembly-guide.pdf   Original product assembly guide
+  git-lfs.md           How to use Git LFS
 
 bom/            Bill of materials (parts to source)
-  parts.csv     Skeleton list                             — supplier links TBU
-
-tools/          Helper scripts (e.g. STL → thumbnail)     [to be updated]
+  parts.csv     Parts list                                — supplier links TBU
 ```
 
 ## Status
@@ -49,9 +46,9 @@ tools/          Helper scripts (e.g. STL → thumbnail)     [to be updated]
 | Mechanical CAD (STEP / STL / thumbnails) | **36 parts uploaded** — see [`cad/README.md`](cad/README.md) |
 | Product assembly guide (PDF) | **Uploaded** → [`docs/assembly-guide.pdf`](docs/assembly-guide.pdf) |
 | Mechanical BOM | Skeleton CSV present; supplier links **to be updated** |
-| Editable CAD source files | **To be updated** |
-| 2D drawings | **To be updated** |
-| Build photos / videos | **To be updated** |
+| Editable CAD source files | Not yet uploaded |
+| 2D drawings | Not yet uploaded |
+| Build photos / videos | Not yet uploaded |
 
 ## Big Files: Git LFS
 
@@ -76,8 +73,8 @@ git clone https://github.com/autonomous-ai/autonomous-ergochair-ultra-2.git
 
 ## Want to Help?
 
-- Upload your editable CAD to [cad/source/](cad/source/) and export STEP + STL
-- Add build photos to [assembly/photos/](assembly/photos/)
+- Upload editable CAD to `cad/source/` and export STEP + STL
+- Add build photos to `assembly/photos/`
 - Open an Issue if something is broken or unclear
 - Send a Pull Request with fixes or improvements
 
