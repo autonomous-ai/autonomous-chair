@@ -8,7 +8,6 @@ Extra documentation that doesn't fit in other folders.
   guide (11 pages: parts in the box, overall size, assembly steps, adjustment
   functions, care & warranty).
 - `git-lfs.md` — how to use Git LFS for the big binary files in this repo
-- `images/` — diagrams, photos used in docs (currently empty)
 
 ## To be updated
 

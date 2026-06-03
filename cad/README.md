@@ -4,12 +4,9 @@ All 3D and 2D design files for the chair.
 
 ## Folders
 
-- `concept/` — early sketches, ideas, screenshots, references — **to be updated**
-- `source/` — editable CAD (Fusion 360, FreeCAD, SolidWorks, OnShape exports) — **to be updated**
 - `step/` — STEP files. Open in any CAD tool. **36 files present.**
 - `stl/` — STL files ready to 3D print. **36 files present.**
 - `thumbnails/` — isometric PNG previews of each part, one per STL (browse without a CAD tool). **36 images present.**
-- `drawings/` — 2D drawings with dimensions (PDF) — **to be updated**
 
 ## Current Parts (36)
 
@@ -92,7 +89,7 @@ welcome — file an issue or PR.
 
 - Always upload a STEP version next to the editable source file
 - Put STL in `stl/` only when the part is final and tested
-- Re-render thumbnails when geometry changes (see `tools/` — **TBU**)
+- Re-render thumbnails when geometry changes
 
 ## Units
 
